@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 프로젝트 세팅
 
-## Getting Started
+## 1. Next.js와 TypeScript 시작
 
-First, run the development server:
+npm create next-app --typescript
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 2. Prettier
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+npm install --save-dev prettier
+npm add -D prettier
+npm add -D eslint-config-prettier
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 3. Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npm add -D tailwindcss postcss autoprefixer
+npm add -D prettier-plugin-tailwindcss
 
-## Learn More
+## 4. Gitmoji
 
-To learn more about Next.js, take a look at the following resources:
+npm i -g gitmoji-cli
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 5. Husky
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npx husky-init && npm install
 
-## Deploy on Vercel
+## 6. ESLint
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm install -D lint-staged
+npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 7. ESLint Airbnb
+
+npm i --save-dev eslint-config-airbnb
+npm i eslint-config-airbnb-typescript
+npm install --save-dev eslint-config-airbnb eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import
+npm install eslint-config-airbnb-typescript @typescript-eslint/eslint-plugin@^6.0.0 @typescript-eslint/parser@^6.0.0 --save-dev
+
+## 8. Redux Toolkit
+
+npm install @reduxjs/toolkit react-redux
+
+## 9. React Hook Form
+
+npm install react-hook-form
+
+## 10. Axios
+
+npm install axios
+
+## 11. Tanstack Query
+
+npm i @tanstack/react-query
+npm i @tanstack/react-query-devtools

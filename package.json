@@ -15,7 +15,7 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "prettier --write",
-      "eslint --fix --cache"
+      "eslint --fix"
     ]
   },
   "husky": {
